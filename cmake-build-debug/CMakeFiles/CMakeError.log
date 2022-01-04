@@ -1,0 +1,195 @@
+Compiling the C compiler identification source file "CMakeCCompilerId.c" failed.
+Compiler: C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/VC/Tools/MSVC/14.29.30133/bin/Hostx64/x64/cl.exe 
+Build flags: /DWIN32;/D_WINDOWS
+Id flags:  
+
+The output was:
+2
+Microsoft (R) C/C++ wersja kompilatora optymalizujĄcego 19.29.30138 dla x64
+Copyright (C) Microsoft Corporation. Wszystkie prawa zastrzeľone.
+
+CMakeCCompilerId.c
+Microsoft (R) Incremental Linker Version 14.29.30138.0
+Copyright (C) Microsoft Corporation.  All rights reserved.
+
+/out:CMakeCCompilerId.exe 
+CMakeCCompilerId.obj 
+LINK : fatal error LNK1104: nie moľna otworzy† pliku "LIBCMT.lib"
+
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" failed.
+Compiler: C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/VC/Tools/MSVC/14.29.30133/bin/Hostx64/x64/cl.exe 
+Build flags: /DWIN32;/D_WINDOWS;/EHsc
+Id flags:  
+
+The output was:
+2
+Microsoft (R) C/C++ wersja kompilatora optymalizujĄcego 19.29.30138 dla x64
+Copyright (C) Microsoft Corporation. Wszystkie prawa zastrzeľone.
+
+CMakeCXXCompilerId.cpp
+Microsoft (R) Incremental Linker Version 14.29.30138.0
+Copyright (C) Microsoft Corporation.  All rights reserved.
+
+/out:CMakeCXXCompilerId.exe 
+CMakeCXXCompilerId.obj 
+LINK : fatal error LNK1104: nie moľna otworzy† pliku "LIBCMT.lib"
+
+
+Detecting C compiler ABI info failed to compile with the following output:
+Change Dir: C:/Users/jstol/CLionProjects/asio_network_programming/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/cpp-compilers/mingw64/bin/ninja.exe cmTC_2ffaf && [1/2] Building C object CMakeFiles\cmTC_2ffaf.dir\CMakeCCompilerABI.c.obj
+[2/2] Linking C executable cmTC_2ffaf.exe
+FAILED: cmTC_2ffaf.exe 
+cmd.exe /C "cd . && "C:\Program Files\CMake\bin\cmake.exe" -E vs_link_exe --intdir=CMakeFiles\cmTC_2ffaf.dir --rc=C:\PROGRA~2\WI3CF2~1\10\bin\100190~1.0\x64\rc.exe --mt=C:\PROGRA~2\WI3CF2~1\10\bin\100190~1.0\x64\mt.exe --manifests  -- C:\PROGRA~2\MICROS~4\2019\COMMUN~1\VC\Tools\MSVC\1429~1.301\bin\Hostx64\x64\link.exe /nologo CMakeFiles\cmTC_2ffaf.dir\CMakeCCompilerABI.c.obj  /out:cmTC_2ffaf.exe /implib:cmTC_2ffaf.lib /pdb:cmTC_2ffaf.pdb /version:0.0 /machine:x64  /debug /INCREMENTAL /subsystem:console  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib && cd ."
+LINK Pass 1: command "C:\PROGRA~2\MICROS~4\2019\COMMUN~1\VC\Tools\MSVC\1429~1.301\bin\Hostx64\x64\link.exe /nologo CMakeFiles\cmTC_2ffaf.dir\CMakeCCompilerABI.c.obj /out:cmTC_2ffaf.exe /implib:cmTC_2ffaf.lib /pdb:cmTC_2ffaf.pdb /version:0.0 /machine:x64 /debug /INCREMENTAL /subsystem:console kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTFILE:CMakeFiles\cmTC_2ffaf.dir/intermediate.manifest CMakeFiles\cmTC_2ffaf.dir/manifest.res" failed (exit code 1104) with the following output:
+LINK : fatal error LNK1104: nie moľna otworzy† pliku "kernel32.lib"
+ninja: build stopped: subcommand failed.
+
+
+
+
+Determining if the C compiler works failed with the following output:
+Change Dir: C:/Users/jstol/CLionProjects/asio_network_programming/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/cpp-compilers/mingw64/bin/ninja.exe cmTC_29169 && [1/2] Building C object CMakeFiles\cmTC_29169.dir\testCCompiler.c.obj
+[2/2] Linking C executable cmTC_29169.exe
+FAILED: cmTC_29169.exe 
+cmd.exe /C "cd . && "C:\Program Files\CMake\bin\cmake.exe" -E vs_link_exe --intdir=CMakeFiles\cmTC_29169.dir --rc=C:\PROGRA~2\WI3CF2~1\10\bin\100190~1.0\x64\rc.exe --mt=C:\PROGRA~2\WI3CF2~1\10\bin\100190~1.0\x64\mt.exe --manifests  -- C:\PROGRA~2\MICROS~4\2019\COMMUN~1\VC\Tools\MSVC\1429~1.301\bin\Hostx64\x64\link.exe /nologo CMakeFiles\cmTC_29169.dir\testCCompiler.c.obj  /out:cmTC_29169.exe /implib:cmTC_29169.lib /pdb:cmTC_29169.pdb /version:0.0 /machine:x64  /debug /INCREMENTAL /subsystem:console  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib && cd ."
+LINK Pass 1: command "C:\PROGRA~2\MICROS~4\2019\COMMUN~1\VC\Tools\MSVC\1429~1.301\bin\Hostx64\x64\link.exe /nologo CMakeFiles\cmTC_29169.dir\testCCompiler.c.obj /out:cmTC_29169.exe /implib:cmTC_29169.lib /pdb:cmTC_29169.pdb /version:0.0 /machine:x64 /debug /INCREMENTAL /subsystem:console kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTFILE:CMakeFiles\cmTC_29169.dir/intermediate.manifest CMakeFiles\cmTC_29169.dir/manifest.res" failed (exit code 1104) with the following output:
+LINK : fatal error LNK1104: nie moľna otworzy† pliku "kernel32.lib"
+ninja: build stopped: subcommand failed.
+
+
+
+Compiling the C compiler identification source file "CMakeCCompilerId.c" failed.
+Compiler: C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/VC/Tools/MSVC/14.29.30133/bin/Hostx64/x64/cl.exe 
+Build flags: /DWIN32;/D_WINDOWS
+Id flags:  
+
+The output was:
+2
+Microsoft (R) C/C++ wersja kompilatora optymalizujĄcego 19.29.30138 dla x64
+Copyright (C) Microsoft Corporation. Wszystkie prawa zastrzeľone.
+
+CMakeCCompilerId.c
+Microsoft (R) Incremental Linker Version 14.29.30138.0
+Copyright (C) Microsoft Corporation.  All rights reserved.
+
+/out:CMakeCCompilerId.exe 
+CMakeCCompilerId.obj 
+LINK : fatal error LNK1104: nie moľna otworzy† pliku "LIBCMT.lib"
+
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" failed.
+Compiler: C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/VC/Tools/MSVC/14.29.30133/bin/Hostx64/x64/cl.exe 
+Build flags: /DWIN32;/D_WINDOWS;/EHsc
+Id flags:  
+
+The output was:
+2
+Microsoft (R) C/C++ wersja kompilatora optymalizujĄcego 19.29.30138 dla x64
+Copyright (C) Microsoft Corporation. Wszystkie prawa zastrzeľone.
+
+CMakeCXXCompilerId.cpp
+Microsoft (R) Incremental Linker Version 14.29.30138.0
+Copyright (C) Microsoft Corporation.  All rights reserved.
+
+/out:CMakeCXXCompilerId.exe 
+CMakeCXXCompilerId.obj 
+LINK : fatal error LNK1104: nie moľna otworzy† pliku "LIBCMT.lib"
+
+
+Detecting C compiler ABI info failed to compile with the following output:
+Change Dir: C:/Users/jstol/CLionProjects/asio_network_programming/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/cpp-compilers/mingw64/bin/ninja.exe cmTC_0e655 && [1/2] Building C object CMakeFiles\cmTC_0e655.dir\CMakeCCompilerABI.c.obj
+[2/2] Linking C executable cmTC_0e655.exe
+FAILED: cmTC_0e655.exe 
+cmd.exe /C "cd . && "C:\Program Files\CMake\bin\cmake.exe" -E vs_link_exe --intdir=CMakeFiles\cmTC_0e655.dir --rc=C:\PROGRA~2\WI3CF2~1\10\bin\100190~1.0\x64\rc.exe --mt=C:\PROGRA~2\WI3CF2~1\10\bin\100190~1.0\x64\mt.exe --manifests  -- C:\PROGRA~2\MICROS~4\2019\COMMUN~1\VC\Tools\MSVC\1429~1.301\bin\Hostx64\x64\link.exe /nologo CMakeFiles\cmTC_0e655.dir\CMakeCCompilerABI.c.obj  /out:cmTC_0e655.exe /implib:cmTC_0e655.lib /pdb:cmTC_0e655.pdb /version:0.0 /machine:x64  /debug /INCREMENTAL /subsystem:console  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib && cd ."
+LINK Pass 1: command "C:\PROGRA~2\MICROS~4\2019\COMMUN~1\VC\Tools\MSVC\1429~1.301\bin\Hostx64\x64\link.exe /nologo CMakeFiles\cmTC_0e655.dir\CMakeCCompilerABI.c.obj /out:cmTC_0e655.exe /implib:cmTC_0e655.lib /pdb:cmTC_0e655.pdb /version:0.0 /machine:x64 /debug /INCREMENTAL /subsystem:console kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTFILE:CMakeFiles\cmTC_0e655.dir/intermediate.manifest CMakeFiles\cmTC_0e655.dir/manifest.res" failed (exit code 1104) with the following output:
+LINK : fatal error LNK1104: nie moľna otworzy† pliku "kernel32.lib"
+ninja: build stopped: subcommand failed.
+
+
+
+
+Determining if the C compiler works failed with the following output:
+Change Dir: C:/Users/jstol/CLionProjects/asio_network_programming/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/cpp-compilers/mingw64/bin/ninja.exe cmTC_f17b7 && [1/2] Building C object CMakeFiles\cmTC_f17b7.dir\testCCompiler.c.obj
+[2/2] Linking C executable cmTC_f17b7.exe
+FAILED: cmTC_f17b7.exe 
+cmd.exe /C "cd . && "C:\Program Files\CMake\bin\cmake.exe" -E vs_link_exe --intdir=CMakeFiles\cmTC_f17b7.dir --rc=C:\PROGRA~2\WI3CF2~1\10\bin\100190~1.0\x64\rc.exe --mt=C:\PROGRA~2\WI3CF2~1\10\bin\100190~1.0\x64\mt.exe --manifests  -- C:\PROGRA~2\MICROS~4\2019\COMMUN~1\VC\Tools\MSVC\1429~1.301\bin\Hostx64\x64\link.exe /nologo CMakeFiles\cmTC_f17b7.dir\testCCompiler.c.obj  /out:cmTC_f17b7.exe /implib:cmTC_f17b7.lib /pdb:cmTC_f17b7.pdb /version:0.0 /machine:x64  /debug /INCREMENTAL /subsystem:console  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib && cd ."
+LINK Pass 1: command "C:\PROGRA~2\MICROS~4\2019\COMMUN~1\VC\Tools\MSVC\1429~1.301\bin\Hostx64\x64\link.exe /nologo CMakeFiles\cmTC_f17b7.dir\testCCompiler.c.obj /out:cmTC_f17b7.exe /implib:cmTC_f17b7.lib /pdb:cmTC_f17b7.pdb /version:0.0 /machine:x64 /debug /INCREMENTAL /subsystem:console kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTFILE:CMakeFiles\cmTC_f17b7.dir/intermediate.manifest CMakeFiles\cmTC_f17b7.dir/manifest.res" failed (exit code 1104) with the following output:
+LINK : fatal error LNK1104: nie moľna otworzy† pliku "kernel32.lib"
+ninja: build stopped: subcommand failed.
+
+
+
+Compiling the C compiler identification source file "CMakeCCompilerId.c" failed.
+Compiler: C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/VC/Tools/MSVC/14.29.30133/bin/Hostx64/x64/cl.exe 
+Build flags: /DWIN32;/D_WINDOWS
+Id flags:  
+
+The output was:
+2
+Microsoft (R) C/C++ wersja kompilatora optymalizujĄcego 19.29.30138 dla x64
+Copyright (C) Microsoft Corporation. Wszystkie prawa zastrzeľone.
+
+CMakeCCompilerId.c
+Microsoft (R) Incremental Linker Version 14.29.30138.0
+Copyright (C) Microsoft Corporation.  All rights reserved.
+
+/out:CMakeCCompilerId.exe 
+CMakeCCompilerId.obj 
+LINK : fatal error LNK1104: nie moľna otworzy† pliku "LIBCMT.lib"
+
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" failed.
+Compiler: C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/VC/Tools/MSVC/14.29.30133/bin/Hostx64/x64/cl.exe 
+Build flags: /DWIN32;/D_WINDOWS;/EHsc
+Id flags:  
+
+The output was:
+2
+Microsoft (R) C/C++ wersja kompilatora optymalizujĄcego 19.29.30138 dla x64
+Copyright (C) Microsoft Corporation. Wszystkie prawa zastrzeľone.
+
+CMakeCXXCompilerId.cpp
+Microsoft (R) Incremental Linker Version 14.29.30138.0
+Copyright (C) Microsoft Corporation.  All rights reserved.
+
+/out:CMakeCXXCompilerId.exe 
+CMakeCXXCompilerId.obj 
+LINK : fatal error LNK1104: nie moľna otworzy† pliku "LIBCMT.lib"
+
+
+Detecting C compiler ABI info failed to compile with the following output:
+Change Dir: C:/Users/jstol/CLionProjects/asio_network_programming/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/cpp-compilers/mingw64/bin/ninja.exe cmTC_79d84 && [1/2] Building C object CMakeFiles\cmTC_79d84.dir\CMakeCCompilerABI.c.obj
+[2/2] Linking C executable cmTC_79d84.exe
+FAILED: cmTC_79d84.exe 
+cmd.exe /C "cd . && "C:\Program Files\CMake\bin\cmake.exe" -E vs_link_exe --intdir=CMakeFiles\cmTC_79d84.dir --rc=C:\PROGRA~2\WI3CF2~1\10\bin\100190~1.0\x64\rc.exe --mt=C:\PROGRA~2\WI3CF2~1\10\bin\100190~1.0\x64\mt.exe --manifests  -- C:\PROGRA~2\MICROS~4\2019\COMMUN~1\VC\Tools\MSVC\1429~1.301\bin\Hostx64\x64\link.exe /nologo CMakeFiles\cmTC_79d84.dir\CMakeCCompilerABI.c.obj  /out:cmTC_79d84.exe /implib:cmTC_79d84.lib /pdb:cmTC_79d84.pdb /version:0.0 /machine:x64  /debug /INCREMENTAL /subsystem:console  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib && cd ."
+LINK Pass 1: command "C:\PROGRA~2\MICROS~4\2019\COMMUN~1\VC\Tools\MSVC\1429~1.301\bin\Hostx64\x64\link.exe /nologo CMakeFiles\cmTC_79d84.dir\CMakeCCompilerABI.c.obj /out:cmTC_79d84.exe /implib:cmTC_79d84.lib /pdb:cmTC_79d84.pdb /version:0.0 /machine:x64 /debug /INCREMENTAL /subsystem:console kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTFILE:CMakeFiles\cmTC_79d84.dir/intermediate.manifest CMakeFiles\cmTC_79d84.dir/manifest.res" failed (exit code 1104) with the following output:
+LINK : fatal error LNK1104: nie moľna otworzy† pliku "kernel32.lib"
+ninja: build stopped: subcommand failed.
+
+
+
+
+Determining if the C compiler works failed with the following output:
+Change Dir: C:/Users/jstol/CLionProjects/asio_network_programming/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/cpp-compilers/mingw64/bin/ninja.exe cmTC_d8296 && [1/2] Building C object CMakeFiles\cmTC_d8296.dir\testCCompiler.c.obj
+[2/2] Linking C executable cmTC_d8296.exe
+FAILED: cmTC_d8296.exe 
+cmd.exe /C "cd . && "C:\Program Files\CMake\bin\cmake.exe" -E vs_link_exe --intdir=CMakeFiles\cmTC_d8296.dir --rc=C:\PROGRA~2\WI3CF2~1\10\bin\100190~1.0\x64\rc.exe --mt=C:\PROGRA~2\WI3CF2~1\10\bin\100190~1.0\x64\mt.exe --manifests  -- C:\PROGRA~2\MICROS~4\2019\COMMUN~1\VC\Tools\MSVC\1429~1.301\bin\Hostx64\x64\link.exe /nologo CMakeFiles\cmTC_d8296.dir\testCCompiler.c.obj  /out:cmTC_d8296.exe /implib:cmTC_d8296.lib /pdb:cmTC_d8296.pdb /version:0.0 /machine:x64  /debug /INCREMENTAL /subsystem:console  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib && cd ."
+LINK Pass 1: command "C:\PROGRA~2\MICROS~4\2019\COMMUN~1\VC\Tools\MSVC\1429~1.301\bin\Hostx64\x64\link.exe /nologo CMakeFiles\cmTC_d8296.dir\testCCompiler.c.obj /out:cmTC_d8296.exe /implib:cmTC_d8296.lib /pdb:cmTC_d8296.pdb /version:0.0 /machine:x64 /debug /INCREMENTAL /subsystem:console kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTFILE:CMakeFiles\cmTC_d8296.dir/intermediate.manifest CMakeFiles\cmTC_d8296.dir/manifest.res" failed (exit code 1104) with the following output:
+LINK : fatal error LNK1104: nie moľna otworzy† pliku "kernel32.lib"
+ninja: build stopped: subcommand failed.
+
+
+

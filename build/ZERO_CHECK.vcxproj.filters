@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\jstol\CLionProjects\asio_network_programming\build\CMakeFiles\371d4099231a05a3b38a3aa765527758\generate.stamp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{9D5CA385-58B4-3B79-AAFA-5B0FCCA041B5}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

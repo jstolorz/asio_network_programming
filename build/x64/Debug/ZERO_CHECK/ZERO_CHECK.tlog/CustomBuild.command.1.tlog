@@ -1,0 +1,10 @@
+^C:\USERS\JSTOL\CLIONPROJECTS\ASIO_NETWORK_PROGRAMMING\BUILD\CMAKEFILES\371D4099231A05A3B38A3AA765527758\GENERATE.STAMP.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/jstol/CLionProjects/asio_network_programming -BC:/Users/jstol/CLionProjects/asio_network_programming/build --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file C:/Users/jstol/CLionProjects/asio_network_programming/build/asio_network_programming.sln
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

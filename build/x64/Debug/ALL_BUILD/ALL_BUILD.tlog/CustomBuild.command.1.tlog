@@ -1,0 +1,10 @@
+^C:\USERS\JSTOL\CLIONPROJECTS\ASIO_NETWORK_PROGRAMMING\CMAKELISTS.TXT
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/jstol/CLionProjects/asio_network_programming -BC:/Users/jstol/CLionProjects/asio_network_programming/build --check-stamp-file C:/Users/jstol/CLionProjects/asio_network_programming/build/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
