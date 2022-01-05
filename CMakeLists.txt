@@ -19,7 +19,7 @@ endif()
 
 SET(USED_LIBS ${Boost_SYSTEM_LIBRARY} ${Boost_THREAD_LIBRARY} ${Boost_REGEX_LIBRARY})
 
-add_executable(${PROJECT_NAME} main.cpp include/wrapper.h src/wrapper.cpp include/echoserver.h)
+add_executable(${PROJECT_NAME} main.cpp include/wrapper.h src/wrapper.cpp include/echoserver.h include/simple_server.h)
 
 TARGET_LINK_LIBRARIES(${PROJECT_NAME} ${USED_LIBS})
 
